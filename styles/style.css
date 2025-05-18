@@ -1,0 +1,66 @@
+body {
+    background-image: url('../images/forest.png');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+}
+
+.character-box {
+
+    width: 30vw; 
+    height: 55.5vh; 
+    float: left;
+}
+
+#dialogue-box {
+    font-size: 3vw;
+    height: 40vh;
+    width: 90vw;
+    outline: solid gold 5px;
+    background-color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+#option-box {
+    height: 10vh; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+#option-box button {
+    flex: 1;
+    margin: 0 1vw;
+    font-size: 3vw;
+    background-color: rgb(71, 74, 224);
+    color: white;
+}
+
+#option-box button:hover{
+    font-size: 3vw;
+    background-color: rgb(44, 202, 223);
+    color: black;
+}
+
+#option-box input {
+    padding: 0.5em;
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+#inventory {
+    float: right;
+    background-color: brown;
+    width: 7vw;
+    height: 12vh;
+}
+
+.invisible {
+    display: none;
+}
